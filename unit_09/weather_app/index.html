@@ -82,7 +82,7 @@
 
     function getWeather(city){
         var apiKey = "6d561714506fb87ea060273f73aa19b8";
-        var url = "http://api.openweathermap.org/data/2.5/weather?q="+ city + "&appid=" + apiKey;
+        var url = "https://api.openweathermap.org/data/2.5/weather?q="+ city + "&appid=" + apiKey;
 
         fetch(url)
         .then((resp) => resp.json())
